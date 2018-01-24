@@ -1,0 +1,261 @@
+
+@import url('//fonts.googleapis.com/css?family=Lakki+Reddy');
+
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    background-image: url("/images/10830494195_03a1427b1c_k.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+
+    
+}
+.flower::-moz-selection { background:transparent; }
+.flower::selection { background:transparent; }
+
+.container {
+    background: white;
+    margin-top: 120px;
+    padding: 0;
+    background: url('/images/background/tea1.png');
+}
+
+#logo {
+    text-align: center;
+    img {
+        margin-top: -110px;
+    }
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Lakki Reddy', cursive;
+    font-size: 4.7em;
+}
+
+.bg-light {
+    background-color: #f8f9fa!important;
+}
+.navbar {
+    padding: 1rem 1rem;
+    margin-top: -20px;
+}
+
+
+
+
+
+
+#telo {
+    position: relative;
+    right: 165px;
+    top: 113px;
+    visibility: hidden; 
+}
+
+#glava {
+    position: relative;
+    left: 137px;
+    bottom: 102px;
+}
+
+#rep {
+    visibility: hidden;
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+    
+}
+
+#quote {
+    position: relative;
+    bottom: 360px;
+    left: 300px;
+    width: 160px;
+    font-size: 1.3em;
+    font-family: 'Lakki Reddy', cursive;
+    text-align: center;
+
+}
+#first-story {
+    background: skyblue;
+    padding: 10px 25px;
+    margin-top: 30px;
+    margin-right: -50px;
+    margin-left: -30px;
+    box-shadow: -10px 10px 5px -4px #888888;
+
+    p {
+        text-indent: 3em;
+        margin-top: 20px;
+    }
+    h2 {
+        text-align: center;
+        border-bottom: 2px dotted black;
+        width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.banner {
+    text-align: center;
+    margin-top: -210px;
+    background: #f8f9fa;
+    padding: 10px;
+    
+    max-width: 100%;
+
+    img {
+        width: 800px;
+    }
+}
+
+
+#second-story {
+    background: lightgreen;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: -50px;
+    box-shadow: -10px 10px 5px -4px #888888;
+
+    p {
+        text-indent: 3em;
+        margin-top: 20px;
+    }
+    h2 {
+        text-align: center;
+        border-bottom: 2px dotted black;
+        width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#flowers {
+    margin-left: 600px;
+    position: relative;
+}
+
+#flower1 {
+    height: 301px;
+    position: absolute;
+    right: 500px;
+    top: 70px
+}
+#flower2 {
+    height: 153px;
+    right: 410px;
+    top: 200px;
+    position: absolute;
+}
+#flower3 {
+    height: 270px;
+    right: 300px;
+    top: 110px;
+    position: absolute;
+}
+#flower4 {
+    height: 448px;
+    right: 140px;
+    top: -70px;
+    position: absolute;
+}
+#flower5 {
+    height: 304px;
+}
+#flower6 {
+    height: 208px;
+    right: 45px;
+    top: 155px;
+    position: absolute;
+}
+
+.col-6 {
+    h2, p {
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+#rabbit-banner {
+    display: flex;
+
+    img {
+        margin-left: 200px;
+        border: 5px dotted black;
+    }
+}
+#rabbit-quote {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+
+    p {
+        font-size: 2em;
+        font-family: 'Lakki Reddy', cursive;
+    }
+}
+
+
+#third-story {
+    background: lavender;
+    padding: 10px 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: -50px;
+    margin-left: -30px;
+    box-shadow: -10px 10px 5px -4px #888888;
+
+    p {
+        text-indent: 3em;
+        margin-top: 20px;
+    }
+    h2 {
+        text-align: center;
+        border-bottom: 2px dotted black;
+        width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.banner2 {
+    text-align: center;
+    
+    background: #f8f9fa;
+    padding: 10px;
+    
+    max-width: 100%;
+
+    img {
+        width: 800px;
+    }
+}
+
+#fourth-story {
+    background: #FFFF99;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: -50px;
+    box-shadow: -10px 10px 5px -4px #888888;
+
+    p {
+        text-indent: 3em;
+        margin-top: 20px;
+    }
+    h2 {
+        text-align: center;
+        border-bottom: 2px dotted black;
+        width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

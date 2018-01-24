@@ -1,0 +1,934 @@
+@import url("//fonts.googleapis.com/css?family=Lakki+Reddy");
+/* line 5, ../wonderland.scss */
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: url("/images/10830494195_03a1427b1c_k.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* line 22, ../wonderland.scss */
+.flower::-moz-selection {
+  background: transparent;
+}
+
+/* line 23, ../wonderland.scss */
+.flower::selection {
+  background: transparent;
+}
+
+/* line 25, ../wonderland.scss */
+.container {
+  background: white;
+  margin-top: 120px;
+  padding: 0;
+  background: url("/images/background/tea1.png");
+  max-width: 90%;
+}
+
+/* line 33, ../wonderland.scss */
+#logo {
+  text-align: center;
+}
+/* line 35, ../wonderland.scss */
+#logo img {
+  margin-top: -110px;
+}
+
+/* line 40, ../wonderland.scss */
+h1 {
+  text-align: center;
+  font-family: 'Lakki Reddy', cursive;
+  font-size: 3em;
+}
+
+/* line 47, ../wonderland.scss */
+.bg-light {
+  background-color: #FAEBD7 !important;
+  opacity: 0.6;
+}
+
+/* line 51, ../wonderland.scss */
+.navbar {
+  border: 1px solid #F0E1CD;
+  margin-top: -20px;
+}
+
+/* line 56, ../wonderland.scss */
+.navbar-toggler {
+  border: 1px solid #F0E1CD;
+}
+
+/* line 61, ../wonderland.scss */
+.nav-link {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+}
+
+/* line 66, ../wonderland.scss */
+.btn-outline-success {
+  border: 1px solid #F0E1CD;
+  color: #212529;
+  font-size: 1em;
+}
+
+/* line 72, ../wonderland.scss */
+.btn-outline-success:hover {
+  background: lightgray;
+  border: 1px solid #F0E1CD;
+}
+
+/* line 76, ../wonderland.scss */
+.navbar-toggler:focus {
+  outline: none;
+}
+
+/* line 79, ../wonderland.scss */
+.form-inline {
+  margin-left: -3px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+}
+
+/* line 85, ../wonderland.scss */
+.form-control {
+  width: 60%;
+  margin-right: 10px;
+}
+
+/* line 90, ../wonderland.scss */
+.moved {
+  margin-left: 35px;
+}
+
+/* line 94, ../wonderland.scss */
+#telo, #glava, #rep, #quote, #flower-quote, #rose-quote {
+  display: none;
+}
+
+/* line 98, ../wonderland.scss */
+#flowers, #allFlowers {
+  display: none;
+}
+
+/* line 103, ../wonderland.scss */
+.large-paragraf {
+  display: none;
+}
+
+/* line 107, ../wonderland.scss */
+#first-story {
+  background: skyblue;
+  padding: 10px 25px;
+  margin-bottom: 30px;
+  box-shadow: -10px 10px 8px -4px #888888;
+}
+/* line 113, ../wonderland.scss */
+#first-story p {
+  text-indent: 3em;
+  text-align: justify;
+}
+/* line 117, ../wonderland.scss */
+#first-story #headlineStory {
+  text-align: center;
+  border-bottom: 2px dotted black;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 128, ../wonderland.scss */
+#watch {
+  width: 130px;
+  margin-left: 10px;
+  margin-bottom: -10px;
+  z-index: 9;
+}
+
+/* line 134, ../wonderland.scss */
+#headlineStoryMobClock {
+  float: right;
+  margin-right: 50px;
+  width: 25%;
+  font-size: 200%;
+  text-align: center;
+}
+
+/* line 144, ../wonderland.scss */
+#celaMacka {
+  float: right;
+  margin-right: 5px;
+  width: 130px;
+}
+
+/* line 149, ../wonderland.scss */
+#headlineStoryMobCat {
+  width: 20%;
+  font-size: 200%;
+  margin-left: 6%;
+  margin-top: 25px;
+  text-align: center;
+}
+
+/* line 158, ../wonderland.scss */
+#second-story {
+  background: lightgreen;
+  padding: 10px 25px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: -10px 10px 8px -4px #888888;
+}
+/* line 165, ../wonderland.scss */
+#second-story p {
+  text-indent: 3em;
+  margin-top: 20px;
+  text-align: justify;
+}
+/* line 170, ../wonderland.scss */
+#second-story h2 {
+  text-align: center;
+  border-bottom: 2px dotted black;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+/* line 179, ../wonderland.scss */
+h2 {
+  font-family: 'Lakki Reddy', cursive;
+}
+
+/* line 182, ../wonderland.scss */
+p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* line 186, ../wonderland.scss */
+#rabbit-banner {
+  display: none;
+}
+
+/* line 191, ../wonderland.scss */
+#rabbit-quote {
+  display: flex;
+  align-items: center;
+}
+/* line 196, ../wonderland.scss */
+#rabbit-quote p {
+  font-family: 'Lakki Reddy', cursive;
+}
+
+/* line 201, ../wonderland.scss */
+#clock {
+  display: none;
+}
+
+/* line 205, ../wonderland.scss */
+#watch {
+  -ms-transform: skew(10deg, -20deg);
+  /* IE 9 */
+  -webkit-transform: skew(10deg, -20deg);
+  /* Safari */
+  transform: skew(10deg, -20deg);
+}
+
+/* line 212, ../wonderland.scss */
+#time-quote {
+  display: none;
+}
+
+/* line 216, ../wonderland.scss */
+#third-story {
+  background: lavender;
+  padding: 10px 25px;
+  margin-bottom: 30px;
+  box-shadow: -10px 10px 8px -4px #888888;
+}
+/* line 224, ../wonderland.scss */
+#third-story p {
+  text-indent: 3em;
+  text-align: justify;
+}
+/* line 228, ../wonderland.scss */
+#third-story #headlineStory {
+  text-align: center;
+  border-bottom: 2px dotted black;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 240, ../wonderland.scss */
+.banner img, .banner2 img {
+  max-width: 100%;
+}
+
+/* line 245, ../wonderland.scss */
+#fourth-story {
+  background: #FFFF99;
+  padding: 10px 25px;
+  margin-top: 30px;
+  box-shadow: -10px 10px 8px -4px #888888;
+}
+/* line 252, ../wonderland.scss */
+#fourth-story p {
+  text-indent: 3em;
+  margin-top: 20px;
+  text-align: justify;
+}
+/* line 257, ../wonderland.scss */
+#fourth-story h2 {
+  text-align: center;
+  border-bottom: 2px dotted black;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+/* line 266, ../wonderland.scss */
+#photo-credit {
+  font-size: 0.6em;
+  margin-left: 20px;
+}
+
+/* line 271, ../wonderland.scss */
+#headlineStory {
+  display: none;
+}
+
+/* line 276, ../wonderland.scss */
+#rosa, #rosaOrange, #rosaBlue, #rosaRed, #rosaYellow, #rosaPink {
+  display: none;
+}
+
+@media only screen and (min-width: 500px) {
+  /* line 281, ../wonderland.scss */
+  .large-paragraf {
+    display: block;
+  }
+
+  /* line 284, ../wonderland.scss */
+  #headlineStoryMobClock {
+    margin-top: 25px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 292, ../wonderland.scss */
+  .moved {
+    margin-left: 0;
+  }
+
+  /* line 297, ../wonderland.scss */
+  #headlineStory {
+    display: block;
+  }
+
+  /* line 301, ../wonderland.scss */
+  #headlineStoryMobCat, #headlineStoryMobClock {
+    display: none;
+  }
+
+  /* line 305, ../wonderland.scss */
+  .large-paragraf {
+    display: none;
+  }
+
+  /* line 309, ../wonderland.scss */
+  h1 {
+    font-size: 3.5em;
+  }
+
+  /* line 314, ../wonderland.scss */
+  .col-md-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* line 321, ../wonderland.scss */
+  #celaMacka {
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* line 327, ../wonderland.scss */
+  #first-story {
+    margin-top: 30px;
+    margin-right: -20px;
+    margin-left: -30px;
+    padding-top: 25px;
+    margin-bottom: 30px;
+  }
+  /* line 334, ../wonderland.scss */
+  #first-story h2 {
+    text-align: center;
+    border-bottom: 2px dotted black;
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 344, ../wonderland.scss */
+  .banner {
+    background: #f8f9fa;
+    text-align: center;
+    margin-top: -10px;
+    padding: 10px;
+    max-width: 100%;
+  }
+  /* line 352, ../wonderland.scss */
+  .banner img {
+    width: 800px;
+  }
+
+  /* line 357, ../wonderland.scss */
+  #second-story {
+    margin-left: -20px;
+  }
+
+  /* line 361, ../wonderland.scss */
+  #allFlowers {
+    display: block;
+    max-width: 380px;
+  }
+
+  /* line 368, ../wonderland.scss */
+  #rabbit-banner {
+    display: flex;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 377, ../wonderland.scss */
+  #rabbit-quote {
+    display: flex;
+    align-items: center;
+  }
+  /* line 382, ../wonderland.scss */
+  #rabbit-quote p {
+    font-size: 1.8em;
+    font-family: 'Lakki Reddy', cursive;
+  }
+
+  /* line 387, ../wonderland.scss */
+  #watch {
+    width: 235px;
+  }
+
+  /* line 392, ../wonderland.scss */
+  #rosa {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 10%;
+  }
+
+  /* line 399, ../wonderland.scss */
+  #third-story {
+    margin-right: -20px;
+    margin-left: -30px;
+    padding-top: 25px;
+  }
+
+  /* line 406, ../wonderland.scss */
+  .banner2 {
+    text-align: center;
+    margin-top: -10px;
+    background: #f8f9fa;
+    padding: 10px;
+    max-width: 100%;
+  }
+  /* line 414, ../wonderland.scss */
+  .banner2 img {
+    width: 800px;
+  }
+
+  /* line 419, ../wonderland.scss */
+  #fourth-story {
+    margin-left: -20px;
+  }
+}
+@media only screen and (min-width: 980px) {
+  /* line 425, ../wonderland.scss */
+  .large-paragraf {
+    display: block;
+  }
+
+  /* line 429, ../wonderland.scss */
+  #allFlowers {
+    margin-top: 90px;
+    max-width: 90%;
+  }
+
+  /* line 433, ../wonderland.scss */
+  #watch {
+    width: 235px;
+  }
+
+  /* line 438, ../wonderland.scss */
+  #rosa {
+    top: 100px;
+    left: 20%;
+  }
+
+  /* line 442, ../wonderland.scss */
+  #photo-credit {
+    font-size: 0.8em;
+    margin-left: 40px;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  /* line 451, ../wonderland.scss */
+  #allFlowers {
+    margin-top: 20px;
+    max-width: 90%;
+  }
+
+  /* line 456, ../wonderland.scss */
+  #celaMacka {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  /* line 465, ../wonderland.scss */
+  .container {
+    max-width: 1140px;
+  }
+
+  /* line 469, ../wonderland.scss */
+  h1 {
+    padding-bottom: 10px;
+  }
+
+  /* line 476, ../wonderland.scss */
+  #first-story h1 {
+    font-size: 4.7em;
+  }
+
+  /* line 482, ../wonderland.scss */
+  #celaMacka, #AllFlowers {
+    display: none;
+  }
+
+  /* line 485, ../wonderland.scss */
+  .lg-display-col-macka {
+    display: block;
+  }
+
+  /* line 490, ../wonderland.scss */
+  #telo {
+    display: block;
+    position: relative;
+    left: 106px;
+    top: -23px;
+    visibility: hidden;
+  }
+
+  /* line 499, ../wonderland.scss */
+  #glava {
+    display: block;
+    position: relative;
+    left: 200px;
+    bottom: 210px;
+  }
+
+  /* line 507, ../wonderland.scss */
+  #rep {
+    display: block;
+    visibility: hidden;
+    position: relative;
+    top: 60px;
+    left: 91px;
+  }
+
+  /* line 515, ../wonderland.scss */
+  #quote {
+    display: block;
+    position: relative;
+    bottom: 530px;
+    left: 55%;
+    width: 160px;
+    font-size: 1.3em;
+    font-family: 'Lakki Reddy', cursive;
+    text-align: center;
+  }
+
+  /* line 527, ../wonderland.scss */
+  .banner {
+    margin-top: -370px;
+  }
+
+  /* line 531, ../wonderland.scss */
+  #flower-quote {
+    display: block;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+    font-size: 2em;
+    font-family: 'Lakki Reddy', cursive;
+  }
+
+  /* line 542, ../wonderland.scss */
+  #allFlowers {
+    display: none;
+  }
+
+  /* line 546, ../wonderland.scss */
+  #flowers {
+    display: block;
+  }
+
+  /* line 552, ../wonderland.scss */
+  #flower1 {
+    height: 231px;
+    position: absolute;
+    right: 500px;
+    top: 180px;
+  }
+
+  /* line 558, ../wonderland.scss */
+  #flower2 {
+    height: 123px;
+    right: 400px;
+    top: 280px;
+    position: absolute;
+  }
+
+  /* line 564, ../wonderland.scss */
+  #flower3 {
+    height: 240px;
+    right: 290px;
+    top: 180px;
+    position: absolute;
+  }
+
+  /* line 570, ../wonderland.scss */
+  #flower4 {
+    height: 418px;
+    right: 130px;
+    top: 0px;
+    position: absolute;
+  }
+
+  /* line 578, ../wonderland.scss */
+  #flower6 {
+    height: 178px;
+    right: 30px;
+    top: 235px;
+    position: absolute;
+  }
+
+  /* line 586, ../wonderland.scss */
+  #third-story {
+    margin-top: -20px;
+  }
+
+  /* CLOCK CSS */
+  /* line 592, ../wonderland.scss */
+  .num {
+    height: 100%;
+    position: absolute;
+    left: calc(50% - 0.5em);
+  }
+
+  /* line 597, ../wonderland.scss */
+  .num div {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    width: 1em;
+    line-height: 2em;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  /* line 607, ../wonderland.scss */
+  .num1 {
+    transform: rotate(30deg);
+  }
+
+  /* line 611, ../wonderland.scss */
+  .num1 div {
+    transform: rotate(-30deg);
+  }
+
+  /* line 615, ../wonderland.scss */
+  .num2 {
+    transform: rotate(60deg);
+  }
+
+  /* line 619, ../wonderland.scss */
+  .num2 div {
+    transform: rotate(-60deg);
+  }
+
+  /* line 623, ../wonderland.scss */
+  .num3 {
+    transform: rotate(90deg);
+  }
+
+  /* line 627, ../wonderland.scss */
+  .num3 div {
+    transform: rotate(-90deg);
+  }
+
+  /* line 631, ../wonderland.scss */
+  .num4 {
+    transform: rotate(120deg);
+  }
+
+  /* line 635, ../wonderland.scss */
+  .num4 div {
+    transform: rotate(-120deg);
+  }
+
+  /* line 639, ../wonderland.scss */
+  .num5 {
+    transform: rotate(150deg);
+  }
+
+  /* line 643, ../wonderland.scss */
+  .num5 div {
+    transform: rotate(-150deg);
+  }
+
+  /* line 647, ../wonderland.scss */
+  .num6 {
+    transform: rotate(180deg);
+  }
+
+  /* line 651, ../wonderland.scss */
+  .num6 div {
+    transform: rotate(-180deg);
+  }
+
+  /* line 655, ../wonderland.scss */
+  .num7 {
+    transform: rotate(210deg);
+  }
+
+  /* line 659, ../wonderland.scss */
+  .num7 div {
+    transform: rotate(-210deg);
+  }
+
+  /* line 663, ../wonderland.scss */
+  .num8 {
+    transform: rotate(240deg);
+  }
+
+  /* line 667, ../wonderland.scss */
+  .num8 div {
+    transform: rotate(-240deg);
+  }
+
+  /* line 671, ../wonderland.scss */
+  .num9 {
+    transform: rotate(270deg);
+  }
+
+  /* line 675, ../wonderland.scss */
+  .num9 div {
+    transform: rotate(-270deg);
+  }
+
+  /* line 679, ../wonderland.scss */
+  .num10 {
+    transform: rotate(300deg);
+  }
+
+  /* line 683, ../wonderland.scss */
+  .num10 div {
+    transform: rotate(-300deg);
+  }
+
+  /* line 687, ../wonderland.scss */
+  .num11 {
+    transform: rotate(330deg);
+  }
+
+  /* line 691, ../wonderland.scss */
+  .num11 div {
+    transform: rotate(-330deg);
+  }
+
+  /* line 695, ../wonderland.scss */
+  .num12 {
+    transform: rotate(0deg);
+  }
+
+  /* line 699, ../wonderland.scss */
+  .num12 div {
+    transform: rotate(0deg);
+  }
+
+  /* line 703, ../wonderland.scss */
+  #sec-hand {
+    background: red;
+    width: 1px;
+    height: 40%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -ms-transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+
+  /* line 717, ../wonderland.scss */
+  #min-hand {
+    background: yellow;
+    width: 3px;
+    height: 30%;
+    position: absolute;
+    top: 20%;
+    left: calc(50% - 0.05em);
+    -ms-transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+
+  /* line 730, ../wonderland.scss */
+  #hr-hand {
+    background: blue;
+    width: 5px;
+    height: 20%;
+    position: absolute;
+    top: 30%;
+    left: calc(50% - 0.15em);
+    -ms-transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+
+  /* line 743, ../wonderland.scss */
+  #watch {
+    height: 305px;
+    width: 235px;
+    -ms-transform: skew(10deg, -20deg);
+    /* IE 9 */
+    -webkit-transform: skew(10deg, -20deg);
+    /* Safari */
+    transform: skew(10deg, -20deg);
+    margin-top: 20px;
+    margin-left: -10px;
+  }
+
+  /* line 754, ../wonderland.scss */
+  #clock {
+    display: block;
+    width: 195px;
+    height: 195px;
+    left: 137px;
+    top: 133px;
+    background-color: white;
+    border: 3px solid #000;
+    border-radius: 50%;
+    z-index: 9;
+    position: relative;
+    -ms-transform: skew(10deg, -20deg);
+    /* IE 9 */
+    -webkit-transform: skew(10deg, -20deg);
+    /* Safari */
+    transform: skew(10deg, -20deg);
+    position: absolute;
+  }
+
+  /* END CLOCK CSS */
+  /* line 775, ../wonderland.scss */
+  #time-quote {
+    display: block;
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    width: 120px;
+    font-size: 1.5em;
+    font-family: 'Lakki Reddy', cursive;
+    text-align: center;
+  }
+
+  /* line 789, ../wonderland.scss */
+  #rosa {
+    left: 15%;
+    cursor: url("/images/cetka/brush.png"), auto;
+  }
+
+  /* line 794, ../wonderland.scss */
+  #orange {
+    position: absolute;
+    left: 130px;
+    top: 200px;
+  }
+
+  /* line 800, ../wonderland.scss */
+  #blue {
+    position: absolute;
+    left: 210px;
+    top: 130px;
+  }
+
+  /* line 805, ../wonderland.scss */
+  #pink {
+    position: absolute;
+    left: 220px;
+    top: 190px;
+  }
+
+  /* line 810, ../wonderland.scss */
+  #yellow {
+    position: absolute;
+    left: 280px;
+    top: 240px;
+  }
+
+  /* line 815, ../wonderland.scss */
+  #red {
+    position: absolute;
+    left: 190px;
+    top: 280px;
+  }
+
+  /* line 821, ../wonderland.scss */
+  .colors {
+    width: 30px;
+    height: 30px;
+    cursor: url("/images/cetka/brush.png"), auto;
+  }
+
+  /* line 829, ../wonderland.scss */
+  #rosaOrange, #rosaBlue, #rosaRed, #rosaYellow, #rosaPink {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 15%;
+    cursor: url("/images/cetka/brush.png"), auto;
+  }
+
+  /* line 838, ../wonderland.scss */
+  #rose-quote {
+    display: block;
+    position: relative;
+    top: -40px;
+    left: 160px;
+    width: 120px;
+    font-size: 1.4em;
+    font-family: 'Lakki Reddy', cursive;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  /* line 852, ../wonderland.scss */
+  .container {
+    max-width: 1140px;
+  }
+}

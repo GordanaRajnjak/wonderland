@@ -1,0 +1,856 @@
+
+@import url('//fonts.googleapis.com/css?family=Lakki+Reddy');
+
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    background-image: url("/images/10830494195_03a1427b1c_k.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+
+    
+}
+
+
+.flower::-moz-selection { background:transparent; }
+.flower::selection { background:transparent; }
+
+.container {
+    background: white;
+    margin-top: 120px;
+    padding: 0;
+    background: url('/images/background/tea1.png');
+    max-width: 90%;
+}
+
+#logo {
+    text-align: center;
+    img {
+        margin-top: -110px;
+    }
+}
+
+h1 {
+    text-align: center;
+    
+    font-family: 'Lakki Reddy', cursive;
+    font-size: 3em;
+}
+
+.bg-light {
+    background-color: #FAEBD7!important;
+    opacity: 0.6;
+}
+.navbar {
+    border: 1px solid #F0E1CD;
+    margin-top: -20px;
+}
+
+.navbar-toggler {
+    border: 1px solid #F0E1CD;
+
+ //   border-radius: 50%;
+}
+.nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em; 
+}
+
+.btn-outline-success {
+    border: 1px solid #F0E1CD;
+    color: #212529;
+    font-size: 1em;
+     
+}
+.btn-outline-success:hover {
+    background: lightgray;
+    border: 1px solid #F0E1CD;
+}
+.navbar-toggler:focus {
+    outline: none;
+}
+.form-inline {
+    margin-left: -3px;
+     font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+.form-control {
+    width: 60%;
+    margin-right: 10px;
+}
+
+.moved {
+    margin-left: 35px;
+}
+
+#telo, #glava, #rep, #quote, #flower-quote, #rose-quote {
+    display: none;
+}
+
+#flowers, #allFlowers {
+        display: none;
+}
+
+
+.large-paragraf {
+    display: none;
+}
+
+#first-story {
+    background: skyblue;
+    padding: 10px 25px;
+    margin-bottom: 30px;
+    box-shadow: -10px 10px 8px -4px #888888;
+
+    p {
+        text-indent: 3em;
+        text-align: justify;
+    }
+    #headlineStory {
+        text-align: center;
+        border-bottom: 2px dotted black;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+#watch {
+    width: 130px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+    z-index: 9;
+}
+#headlineStoryMobClock {
+    float: right;
+    margin-right: 50px;
+    width: 25%;
+    font-size: 200%;
+    
+    text-align: center;
+}
+
+
+#celaMacka {
+   float: right;
+   margin-right: 5px;
+    width: 130px;
+}
+#headlineStoryMobCat {
+    width: 20%;
+    font-size: 200%;
+    margin-left: 6%;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+#second-story {
+    background: lightgreen;
+    padding: 10px 25px;
+    margin-top: 30px;
+     margin-bottom: 20px;
+    box-shadow: -10px 10px 8px -4px #888888;
+
+    p {
+        text-indent: 3em;
+         margin-top: 20px;
+         text-align: justify;
+    }
+    h2 {
+        text-align: center;
+        border-bottom: 2px dotted black;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+}
+h2 {
+    font-family: 'Lakki Reddy', cursive;
+}
+p {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #rabbit-banner {
+    display: none;
+ 
+}
+
+#rabbit-quote {
+    display: flex;
+    align-items: center;
+    
+
+    p {
+        font-family: 'Lakki Reddy', cursive;
+    }
+}
+
+#clock {
+    display: none;
+}
+
+#watch {
+    
+    -ms-transform: skew(10deg,-20deg); /* IE 9 */
+    -webkit-transform: skew(10deg,-20deg); /* Safari */
+    transform: skew(10deg,-20deg);
+}
+
+#time-quote {
+    display: none;
+}
+
+#third-story {
+    background: lavender;
+    padding: 10px 25px;
+   
+    margin-bottom: 30px;
+    
+    box-shadow: -10px 10px 8px -4px #888888;
+
+    p {
+        text-indent: 3em;
+        text-align: justify;
+    }
+    #headlineStory {
+        text-align: center;
+        border-bottom: 2px dotted black;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+.banner, .banner2 {
+    img {
+    max-width: 100%;
+    }
+}
+
+#fourth-story {
+    background: #FFFF99;
+    padding: 10px 25px;
+    margin-top: 30px;
+    
+    box-shadow: -10px 10px 8px -4px #888888;
+
+    p {
+        text-indent: 3em;
+        margin-top: 20px;
+        text-align: justify;
+    }
+   h2 {
+        text-align: center;
+        border-bottom: 2px dotted black;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+}
+#photo-credit {
+    font-size: 0.6em;
+    margin-left: 20px;
+}
+
+#headlineStory {
+    display: none;
+}
+
+
+#rosa, #rosaOrange, #rosaBlue, #rosaRed, #rosaYellow, #rosaPink {
+    display: none;
+}
+
+@media only screen and (min-width: 500px) {
+       .large-paragraf {
+    display: block;
+}
+#headlineStoryMobClock {
+    margin-top: 25px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+    
+
+    .moved {
+    margin-left: 0;
+}
+
+
+    #headlineStory {
+        display: block;
+    }
+
+    #headlineStoryMobCat, #headlineStoryMobClock {
+        display: none;
+    }
+
+    .large-paragraf {
+    display: none;
+}
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+
+    .col-md-6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #celaMacka {
+        width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+    #first-story {
+    margin-top: 30px;
+    margin-right: -20px;
+    margin-left: -30px;
+    padding-top: 25px;
+    margin-bottom: 30px;
+    
+    h2 {
+        text-align: center;
+        border-bottom: 2px dotted black;
+        width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.banner {
+    background: #f8f9fa;
+    text-align: center;
+    margin-top: -10px;
+    padding: 10px;
+    
+    max-width: 100%;
+
+    img {
+        width: 800px;
+    }
+}
+
+#second-story {
+   
+    margin-left: -20px;
+}
+#allFlowers {
+        display: block;
+        max-width: 380px;
+       
+}
+    
+
+#rabbit-banner {
+    display: flex;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+#rabbit-quote {
+    display: flex;
+    align-items: center;
+    
+
+    p {
+        font-size: 1.8em;
+        font-family: 'Lakki Reddy', cursive;
+    }
+}
+#watch {
+    width: 235px;
+   
+   
+}
+#rosa {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 10%;
+}
+
+#third-story {
+   
+    margin-right: -20px;
+    margin-left: -30px;
+    padding-top: 25px;
+}
+
+.banner2 {
+    text-align: center;
+    margin-top: -10px;
+    background: #f8f9fa;
+    padding: 10px;
+    
+    max-width: 100%;
+
+    img {
+        width: 800px;
+       
+    }
+}
+#fourth-story {
+    margin-left: -20px;
+}
+
+}
+@media only screen and (min-width: 980px) {
+        .large-paragraf {
+        display: block;
+}
+
+    #allFlowers {
+        margin-top: 90px;
+        max-width: 90%;
+    }
+    #watch {
+    width: 235px;
+   
+}
+
+#rosa {
+    top: 100px;
+    left: 20%;
+}
+#photo-credit {
+    font-size: 0.8em;
+    margin-left: 40px;
+}
+}
+
+@media only screen and (min-width: 1140px) {
+
+
+    #allFlowers {
+    margin-top: 20px;
+    max-width: 90%;
+    }
+
+    #celaMacka {
+   
+    width: 50%;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+
+ .container {
+        max-width: 1140px;
+    }
+
+ h1 {
+     padding-bottom: 10px;
+ }
+
+    #first-story {
+    
+   
+      h1 {
+        font-size: 4.7em;
+    }
+
+    }
+
+    #celaMacka, #AllFlowers {
+        display: none;
+    }
+    .lg-display-col-macka {
+        display: block;
+    }
+    
+
+    #telo {
+        display: block;
+    position: relative;
+  left: 106px;
+
+  top: -23px;
+visibility: hidden; 
+}
+
+#glava {
+    display: block;
+    position: relative;
+left: 200px;
+ bottom: 210px;
+    
+}
+
+#rep {
+    display: block;
+    visibility: hidden;
+    position: relative;
+ top: 60px;
+ left: 91px;
+    
+}
+#quote {
+    display: block;
+    position: relative;
+    bottom: 530px;
+    left: 55%;
+    width: 160px;
+    font-size: 1.3em;
+    font-family: 'Lakki Reddy', cursive;
+    text-align: center;
+
+}
+
+.banner {
+   margin-top: -370px;
+}
+
+#flower-quote {
+     display: block;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+   
+    font-size: 2em;
+    font-family: 'Lakki Reddy', cursive;
+   
+}
+
+#allFlowers {
+    display: none;
+}
+
+#flowers {
+        display: block;
+        
+   
+}
+
+#flower1 {
+    height: 231px;
+    position: absolute;
+    right: 500px;
+    top: 180px
+}
+#flower2 {
+    height: 123px;
+    right: 400px;
+    top: 280px;
+    position: absolute;
+}
+#flower3 {
+    height: 240px;
+    right: 290px;
+    top: 180px;
+    position: absolute;
+}
+#flower4 {
+   
+    height: 418px;
+    right: 130px;
+    top: 0px;
+    position: absolute;
+}
+
+#flower6 {
+    
+    height: 178px;
+    right: 30px;
+    top: 235px;
+    position: absolute;
+}
+
+#third-story {
+    margin-top: -20px;
+}
+
+/* CLOCK CSS */
+
+.num {
+    height: 100%;
+    position: absolute;
+    left: calc(50% - 0.5em);
+}
+.num div {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+  width: 1em;
+  line-height: 2em;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.num1 {
+  transform: rotate(30deg);
+}
+
+.num1 div{
+  transform: rotate(-30deg);
+}
+
+.num2 {
+  transform: rotate(60deg);
+}
+
+.num2 div{
+  transform: rotate(-60deg);
+}
+
+.num3 {
+  transform: rotate(90deg);
+}
+
+.num3 div{
+  transform: rotate(-90deg);
+}
+
+.num4 {
+  transform: rotate(120deg);
+}
+
+.num4 div{
+  transform: rotate(-120deg);
+}
+
+.num5 {
+  transform: rotate(150deg);
+}
+
+.num5 div{
+  transform: rotate(-150deg);
+}
+
+.num6 {
+  transform: rotate(180deg);
+}
+
+.num6 div{
+  transform: rotate(-180deg);
+}
+
+.num7 {
+  transform: rotate(210deg);
+}
+
+.num7 div{
+  transform: rotate(-210deg);
+}
+
+.num8 {
+  transform: rotate(240deg);
+}
+
+.num8 div{
+  transform: rotate(-240deg);
+}
+
+.num9 {
+  transform: rotate(270deg);
+}
+
+.num9 div{
+  transform: rotate(-270deg);
+}
+
+.num10 {
+  transform: rotate(300deg);
+}
+
+.num10 div{
+  transform: rotate(-300deg);
+}
+
+.num11 {
+  transform: rotate(330deg);
+}
+
+.num11 div{
+  transform: rotate(-330deg);
+}
+
+.num12 {
+  transform: rotate(0deg);
+}
+
+.num12 div{
+  transform: rotate(-0deg);
+}
+
+#sec-hand {
+    background: red;
+     
+    width: 1px;
+    height: 40%;
+    position: absolute;
+  top: 10%;
+  left:50%;
+  -ms-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+ 
+}
+
+#min-hand {
+    background: yellow;
+     
+    width: 3px;
+    height: 30%;
+    position: absolute;
+  top: 20%;
+  left: calc(50% - 0.05em);
+  -ms-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+
+#hr-hand {
+    background: blue;
+     
+    width: 5px;
+    height: 20%;
+    position: absolute;
+  top: 30%;
+  left: calc(50% - 0.15em);
+  -ms-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+
+#watch {
+  height: 305px;
+  width: 235px;
+  -ms-transform: skew(10deg,-20deg); /* IE 9 */
+    -webkit-transform: skew(10deg,-20deg); /* Safari */
+    transform: skew(10deg,-20deg);
+    margin-top: 20px;
+    margin-left: -10px;
+    
+}
+
+#clock {
+  display: block;
+  width: 195px;
+  height: 195px;
+  left: 137px;
+  top: 133px;
+  background-color: white;
+  border: 3px solid #000;
+  border-radius: 50%;
+  z-index: 9;
+  
+  position: relative;
+
+  -ms-transform: skew(10deg,-20deg); /* IE 9 */
+    -webkit-transform: skew(10deg,-20deg); /* Safari */
+    transform: skew(10deg,-20deg);
+    position: absolute;
+}
+
+/* END CLOCK CSS */
+
+#time-quote {
+    display: block;
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    width: 120px;
+    font-size: 1.5em;
+    font-family: 'Lakki Reddy', cursive;
+    text-align: center;
+}
+.banner2 {
+ 
+}  
+
+#rosa {
+    left: 15%;
+     cursor: url("/images/cetka/brush.png"), auto;
+}
+
+#orange {
+    position: absolute;
+    left: 130px;
+    top: 200px;
+   
+}
+#blue {
+    position: absolute;
+    left: 210px;
+    top: 130px;
+}
+#pink {
+    position: absolute;
+    left: 220px;
+    top: 190px;
+}
+#yellow {
+    position: absolute;
+    left: 280px;
+    top: 240px;
+}
+#red {
+    position: absolute;
+    left: 190px;
+    top: 280px;
+}
+
+.colors {
+    width: 30px;
+    height: 30px;
+    cursor: url("/images/cetka/brush.png"), auto;
+  
+   
+}
+
+#rosaOrange, #rosaBlue, #rosaRed, #rosaYellow, #rosaPink {
+    display: block;
+    position: absolute;
+   top: 100px;
+    left: 15%;
+     cursor: url("/images/cetka/brush.png"), auto;
+    
+}
+
+#rose-quote {
+    display: block;
+    position: relative;
+    top: -40px;
+    left: 160px;
+    width: 120px;
+    font-size: 1.4em;
+    font-family: 'Lakki Reddy', cursive;
+    text-align: center;
+}
+
+    }
+
+@media only screen and (min-width: 1600px) {
+    .container {
+        max-width: 1140px;
+    }
+
+}
