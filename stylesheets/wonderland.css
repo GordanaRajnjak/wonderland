@@ -7,24 +7,30 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background: url("/images/10830494195_03a1427b1c_k.jpg") no-repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
-/* line 21, ../sass/wonderland.scss */
+/* line 15, ../sass/wonderland.scss */
+#bug-fix {
+  background: url("/images/10830494195_03a1427b1c_k.jpg");
+  width: 100%;
+  height: 1500px;
+  position: fixed;
+  z-index: -1;
+  top: -100px;
+  bottom: -100px;
+}
+
+/* line 26, ../sass/wonderland.scss */
 .flower::-moz-selection {
   background: transparent;
 }
 
-/* line 22, ../sass/wonderland.scss */
+/* line 27, ../sass/wonderland.scss */
 .flower::selection {
   background: transparent;
 }
 
-/* line 24, ../sass/wonderland.scss */
+/* line 29, ../sass/wonderland.scss */
 .container {
   background: white;
   margin-top: 120px;
@@ -33,109 +39,109 @@ body {
   max-width: 90%;
 }
 
-/* line 32, ../sass/wonderland.scss */
+/* line 37, ../sass/wonderland.scss */
 #logo {
   text-align: center;
 }
-/* line 34, ../sass/wonderland.scss */
+/* line 39, ../sass/wonderland.scss */
 #logo img {
   margin-top: -110px;
 }
 
-/* line 39, ../sass/wonderland.scss */
+/* line 44, ../sass/wonderland.scss */
 h1 {
   text-align: center;
   font-family: 'Lakki Reddy', cursive;
   font-size: 3em;
 }
 
-/* line 46, ../sass/wonderland.scss */
+/* line 51, ../sass/wonderland.scss */
 .bg-light {
   background-color: #FAEBD7 !important;
   opacity: 0.6;
 }
 
-/* line 50, ../sass/wonderland.scss */
+/* line 55, ../sass/wonderland.scss */
 .navbar {
   border: 1px solid #F0E1CD;
   margin-top: -20px;
 }
 
-/* line 55, ../sass/wonderland.scss */
+/* line 60, ../sass/wonderland.scss */
 .navbar-toggler {
   border: 1px solid #F0E1CD;
 }
 
-/* line 60, ../sass/wonderland.scss */
+/* line 65, ../sass/wonderland.scss */
 .nav-link {
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.2em;
 }
 
-/* line 65, ../sass/wonderland.scss */
+/* line 70, ../sass/wonderland.scss */
 .btn-outline-success {
   border: 1px solid #F0E1CD;
   color: #212529;
   font-size: 1em;
 }
 
-/* line 71, ../sass/wonderland.scss */
+/* line 76, ../sass/wonderland.scss */
 .btn-outline-success:hover {
   background: lightgray;
   border: 1px solid #F0E1CD;
 }
 
-/* line 75, ../sass/wonderland.scss */
+/* line 80, ../sass/wonderland.scss */
 .navbar-toggler:focus {
   outline: none;
 }
 
-/* line 78, ../sass/wonderland.scss */
+/* line 83, ../sass/wonderland.scss */
 .form-inline {
   margin-left: -3px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.2em;
 }
 
-/* line 84, ../sass/wonderland.scss */
+/* line 89, ../sass/wonderland.scss */
 .form-control {
   width: 60%;
   margin-right: 10px;
 }
 
-/* line 89, ../sass/wonderland.scss */
+/* line 94, ../sass/wonderland.scss */
 .moved {
   margin-left: 35px;
 }
 
-/* line 93, ../sass/wonderland.scss */
+/* line 98, ../sass/wonderland.scss */
 #telo, #glava, #rep, #quote, #flower-quote, #rose-quote {
   display: none;
 }
 
-/* line 97, ../sass/wonderland.scss */
+/* line 102, ../sass/wonderland.scss */
 #flowers, #allFlowers {
   display: none;
 }
 
-/* line 102, ../sass/wonderland.scss */
+/* line 107, ../sass/wonderland.scss */
 .large-paragraf {
   display: none;
 }
 
-/* line 106, ../sass/wonderland.scss */
+/* line 111, ../sass/wonderland.scss */
 #first-story {
   background: skyblue;
   padding: 10px 25px;
   margin-bottom: 30px;
   box-shadow: -10px 10px 8px -4px #888888;
 }
-/* line 112, ../sass/wonderland.scss */
+/* line 117, ../sass/wonderland.scss */
 #first-story p {
   text-indent: 3em;
   text-align: justify;
 }
-/* line 116, ../sass/wonderland.scss */
+/* line 121, ../sass/wonderland.scss */
 #first-story #headlineStory {
   text-align: center;
   border-bottom: 2px dotted black;
@@ -144,14 +150,14 @@ h1 {
   margin-right: auto;
 }
 
-/* line 127, ../sass/wonderland.scss */
+/* line 132, ../sass/wonderland.scss */
 #watch {
   width: 130px;
   margin-left: 10px;
   margin-bottom: 5px;
 }
 
-/* line 133, ../sass/wonderland.scss */
+/* line 138, ../sass/wonderland.scss */
 #headlineStoryMobClock {
   float: right;
   margin-right: 50px;
@@ -160,14 +166,14 @@ h1 {
   text-align: center;
 }
 
-/* line 143, ../sass/wonderland.scss */
+/* line 148, ../sass/wonderland.scss */
 #celaMacka {
   float: right;
   margin-right: 5px;
   width: 130px;
 }
 
-/* line 148, ../sass/wonderland.scss */
+/* line 153, ../sass/wonderland.scss */
 #headlineStoryMobCat {
   width: 20%;
   font-size: 200%;
@@ -176,7 +182,7 @@ h1 {
   text-align: center;
 }
 
-/* line 157, ../sass/wonderland.scss */
+/* line 162, ../sass/wonderland.scss */
 #second-story {
   background: lightgreen;
   padding: 10px 25px;
@@ -184,13 +190,13 @@ h1 {
   margin-bottom: 20px;
   box-shadow: -10px 10px 8px -4px #888888;
 }
-/* line 164, ../sass/wonderland.scss */
+/* line 169, ../sass/wonderland.scss */
 #second-story p {
   text-indent: 3em;
   margin-top: 20px;
   text-align: justify;
 }
-/* line 169, ../sass/wonderland.scss */
+/* line 174, ../sass/wonderland.scss */
 #second-story h2 {
   text-align: center;
   border-bottom: 2px dotted black;
@@ -200,37 +206,37 @@ h1 {
   margin-top: 20px;
 }
 
-/* line 178, ../sass/wonderland.scss */
+/* line 183, ../sass/wonderland.scss */
 h2 {
   font-family: 'Lakki Reddy', cursive;
 }
 
-/* line 181, ../sass/wonderland.scss */
+/* line 186, ../sass/wonderland.scss */
 p {
   font-family: 'Times New Roman', Times, serif;
 }
 
-/* line 185, ../sass/wonderland.scss */
+/* line 190, ../sass/wonderland.scss */
 #rabbit-banner {
   display: none;
 }
 
-/* line 190, ../sass/wonderland.scss */
+/* line 195, ../sass/wonderland.scss */
 #rabbit-quote {
   display: flex;
   align-items: center;
 }
-/* line 195, ../sass/wonderland.scss */
+/* line 200, ../sass/wonderland.scss */
 #rabbit-quote p {
   font-family: 'Lakki Reddy', cursive;
 }
 
-/* line 200, ../sass/wonderland.scss */
+/* line 205, ../sass/wonderland.scss */
 #clock {
   display: none;
 }
 
-/* line 204, ../sass/wonderland.scss */
+/* line 209, ../sass/wonderland.scss */
 #watch {
   -ms-transform: skew(10deg, -20deg);
   /* IE 9 */
@@ -239,24 +245,24 @@ p {
   transform: skew(10deg, -20deg);
 }
 
-/* line 211, ../sass/wonderland.scss */
+/* line 216, ../sass/wonderland.scss */
 #time-quote {
   display: none;
 }
 
-/* line 215, ../sass/wonderland.scss */
+/* line 220, ../sass/wonderland.scss */
 #third-story {
   background: lavender;
   padding: 10px 25px;
   margin-bottom: 30px;
   box-shadow: -10px 10px 8px -4px #888888;
 }
-/* line 223, ../sass/wonderland.scss */
+/* line 228, ../sass/wonderland.scss */
 #third-story p {
   text-indent: 3em;
   text-align: justify;
 }
-/* line 227, ../sass/wonderland.scss */
+/* line 232, ../sass/wonderland.scss */
 #third-story #headlineStory {
   text-align: center;
   border-bottom: 2px dotted black;
@@ -265,25 +271,25 @@ p {
   margin-right: auto;
 }
 
-/* line 239, ../sass/wonderland.scss */
+/* line 244, ../sass/wonderland.scss */
 .banner img, .banner2 img {
   max-width: 100%;
 }
 
-/* line 244, ../sass/wonderland.scss */
+/* line 249, ../sass/wonderland.scss */
 #fourth-story {
   background: #FFFF99;
   padding: 10px 25px;
   margin-top: 30px;
   box-shadow: -10px 10px 8px -4px #888888;
 }
-/* line 251, ../sass/wonderland.scss */
+/* line 256, ../sass/wonderland.scss */
 #fourth-story p {
   text-indent: 3em;
   margin-top: 20px;
   text-align: justify;
 }
-/* line 256, ../sass/wonderland.scss */
+/* line 261, ../sass/wonderland.scss */
 #fourth-story h2 {
   text-align: center;
   border-bottom: 2px dotted black;
@@ -293,74 +299,74 @@ p {
   margin-top: 20px;
 }
 
-/* line 265, ../sass/wonderland.scss */
+/* line 270, ../sass/wonderland.scss */
 #photo-credit {
   font-size: 0.6em;
   margin-left: 20px;
 }
 
-/* line 270, ../sass/wonderland.scss */
+/* line 275, ../sass/wonderland.scss */
 #headlineStory {
   display: none;
 }
 
-/* line 275, ../sass/wonderland.scss */
+/* line 280, ../sass/wonderland.scss */
 #rosa, #rosaOrange, #rosaBlue, #rosaRed, #rosaYellow, #rosaPink {
   display: none;
 }
 
 @media only screen and (min-width: 500px) {
-  /* line 280, ../sass/wonderland.scss */
+  /* line 285, ../sass/wonderland.scss */
   .large-paragraf {
     display: block;
   }
 
-  /* line 283, ../sass/wonderland.scss */
+  /* line 288, ../sass/wonderland.scss */
   #headlineStoryMobClock {
     margin-top: 25px;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 291, ../sass/wonderland.scss */
+  /* line 296, ../sass/wonderland.scss */
   .moved {
     margin-left: 0;
   }
 
-  /* line 296, ../sass/wonderland.scss */
+  /* line 301, ../sass/wonderland.scss */
   #headlineStory {
     display: block;
   }
 
-  /* line 300, ../sass/wonderland.scss */
+  /* line 305, ../sass/wonderland.scss */
   #headlineStoryMobCat, #headlineStoryMobClock {
     display: none;
   }
 
-  /* line 304, ../sass/wonderland.scss */
+  /* line 309, ../sass/wonderland.scss */
   .large-paragraf {
     display: none;
   }
 
-  /* line 308, ../sass/wonderland.scss */
+  /* line 313, ../sass/wonderland.scss */
   h1 {
     font-size: 3.5em;
   }
 
-  /* line 313, ../sass/wonderland.scss */
+  /* line 318, ../sass/wonderland.scss */
   .col-md-6 {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  /* line 320, ../sass/wonderland.scss */
+  /* line 325, ../sass/wonderland.scss */
   #celaMacka {
     width: 60%;
     align-items: center;
     justify-content: center;
   }
 
-  /* line 326, ../sass/wonderland.scss */
+  /* line 331, ../sass/wonderland.scss */
   #first-story {
     margin-top: 30px;
     margin-right: -20px;
@@ -368,7 +374,7 @@ p {
     padding-top: 25px;
     margin-bottom: 30px;
   }
-  /* line 333, ../sass/wonderland.scss */
+  /* line 338, ../sass/wonderland.scss */
   #first-story h2 {
     text-align: center;
     border-bottom: 2px dotted black;
@@ -377,7 +383,7 @@ p {
     margin-right: auto;
   }
 
-  /* line 343, ../sass/wonderland.scss */
+  /* line 348, ../sass/wonderland.scss */
   .banner {
     background: #f8f9fa;
     text-align: center;
@@ -385,23 +391,23 @@ p {
     padding: 10px;
     max-width: 100%;
   }
-  /* line 351, ../sass/wonderland.scss */
+  /* line 356, ../sass/wonderland.scss */
   .banner img {
     width: 800px;
   }
 
-  /* line 356, ../sass/wonderland.scss */
+  /* line 361, ../sass/wonderland.scss */
   #second-story {
     margin-left: -20px;
   }
 
-  /* line 360, ../sass/wonderland.scss */
+  /* line 365, ../sass/wonderland.scss */
   #allFlowers {
     display: block;
     max-width: 380px;
   }
 
-  /* line 367, ../sass/wonderland.scss */
+  /* line 372, ../sass/wonderland.scss */
   #rabbit-banner {
     display: flex;
     max-width: 100%;
@@ -409,23 +415,23 @@ p {
     margin-right: auto;
   }
 
-  /* line 376, ../sass/wonderland.scss */
+  /* line 381, ../sass/wonderland.scss */
   #rabbit-quote {
     display: flex;
     align-items: center;
   }
-  /* line 381, ../sass/wonderland.scss */
+  /* line 386, ../sass/wonderland.scss */
   #rabbit-quote p {
     font-size: 1.8em;
     font-family: 'Lakki Reddy', cursive;
   }
 
-  /* line 386, ../sass/wonderland.scss */
+  /* line 391, ../sass/wonderland.scss */
   #watch {
     width: 235px;
   }
 
-  /* line 391, ../sass/wonderland.scss */
+  /* line 396, ../sass/wonderland.scss */
   #rosa {
     display: block;
     position: absolute;
@@ -433,14 +439,14 @@ p {
     left: 10%;
   }
 
-  /* line 398, ../sass/wonderland.scss */
+  /* line 403, ../sass/wonderland.scss */
   #third-story {
     margin-right: -20px;
     margin-left: -30px;
     padding-top: 25px;
   }
 
-  /* line 405, ../sass/wonderland.scss */
+  /* line 410, ../sass/wonderland.scss */
   .banner2 {
     text-align: center;
     margin-top: -10px;
@@ -448,84 +454,84 @@ p {
     padding: 10px;
     max-width: 100%;
   }
-  /* line 413, ../sass/wonderland.scss */
+  /* line 418, ../sass/wonderland.scss */
   .banner2 img {
     width: 800px;
   }
 
-  /* line 418, ../sass/wonderland.scss */
+  /* line 423, ../sass/wonderland.scss */
   #fourth-story {
     margin-left: -20px;
   }
 }
 @media only screen and (min-width: 980px) {
-  /* line 424, ../sass/wonderland.scss */
+  /* line 429, ../sass/wonderland.scss */
   .large-paragraf {
     display: block;
   }
 
-  /* line 428, ../sass/wonderland.scss */
+  /* line 433, ../sass/wonderland.scss */
   #allFlowers {
     margin-top: 90px;
     max-width: 90%;
   }
 
-  /* line 432, ../sass/wonderland.scss */
+  /* line 437, ../sass/wonderland.scss */
   #watch {
     width: 235px;
   }
 
-  /* line 437, ../sass/wonderland.scss */
+  /* line 442, ../sass/wonderland.scss */
   #rosa {
     top: 100px;
     left: 20%;
   }
 
-  /* line 441, ../sass/wonderland.scss */
+  /* line 446, ../sass/wonderland.scss */
   #photo-credit {
     font-size: 0.8em;
     margin-left: 40px;
   }
 }
 @media only screen and (min-width: 1140px) {
-  /* line 450, ../sass/wonderland.scss */
+  /* line 455, ../sass/wonderland.scss */
   #allFlowers {
     margin-top: 20px;
     max-width: 90%;
   }
 
-  /* line 455, ../sass/wonderland.scss */
+  /* line 460, ../sass/wonderland.scss */
   #celaMacka {
     width: 50%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 464, ../sass/wonderland.scss */
+  /* line 469, ../sass/wonderland.scss */
   .container {
     max-width: 1140px;
   }
 
-  /* line 468, ../sass/wonderland.scss */
+  /* line 473, ../sass/wonderland.scss */
   h1 {
     padding-bottom: 10px;
   }
 
-  /* line 475, ../sass/wonderland.scss */
+  /* line 480, ../sass/wonderland.scss */
   #first-story h1 {
     font-size: 4.7em;
   }
 
-  /* line 481, ../sass/wonderland.scss */
+  /* line 486, ../sass/wonderland.scss */
   #celaMacka, #AllFlowers {
     display: none;
   }
 
-  /* line 484, ../sass/wonderland.scss */
+  /* line 489, ../sass/wonderland.scss */
   .lg-display-col-macka {
     display: block;
   }
 
-  /* line 489, ../sass/wonderland.scss */
+  /* line 494, ../sass/wonderland.scss */
   #telo {
     display: block;
     position: relative;
@@ -534,7 +540,7 @@ p {
     visibility: hidden;
   }
 
-  /* line 498, ../sass/wonderland.scss */
+  /* line 503, ../sass/wonderland.scss */
   #glava {
     display: block;
     position: relative;
@@ -542,7 +548,7 @@ p {
     bottom: 210px;
   }
 
-  /* line 506, ../sass/wonderland.scss */
+  /* line 511, ../sass/wonderland.scss */
   #rep {
     display: block;
     visibility: hidden;
@@ -551,7 +557,7 @@ p {
     left: 91px;
   }
 
-  /* line 514, ../sass/wonderland.scss */
+  /* line 519, ../sass/wonderland.scss */
   #quote {
     display: block;
     position: relative;
@@ -563,12 +569,12 @@ p {
     text-align: center;
   }
 
-  /* line 526, ../sass/wonderland.scss */
+  /* line 531, ../sass/wonderland.scss */
   .banner {
     margin-top: -370px;
   }
 
-  /* line 530, ../sass/wonderland.scss */
+  /* line 535, ../sass/wonderland.scss */
   #flower-quote {
     display: block;
     position: absolute;
@@ -578,17 +584,17 @@ p {
     font-family: 'Lakki Reddy', cursive;
   }
 
-  /* line 541, ../sass/wonderland.scss */
+  /* line 546, ../sass/wonderland.scss */
   #allFlowers {
     display: none;
   }
 
-  /* line 545, ../sass/wonderland.scss */
+  /* line 550, ../sass/wonderland.scss */
   #flowers {
     display: block;
   }
 
-  /* line 551, ../sass/wonderland.scss */
+  /* line 556, ../sass/wonderland.scss */
   #flower1 {
     height: 231px;
     position: absolute;
@@ -596,7 +602,7 @@ p {
     top: 180px;
   }
 
-  /* line 557, ../sass/wonderland.scss */
+  /* line 562, ../sass/wonderland.scss */
   #flower2 {
     height: 123px;
     right: 400px;
@@ -604,7 +610,7 @@ p {
     position: absolute;
   }
 
-  /* line 563, ../sass/wonderland.scss */
+  /* line 568, ../sass/wonderland.scss */
   #flower3 {
     height: 240px;
     right: 290px;
@@ -612,7 +618,7 @@ p {
     position: absolute;
   }
 
-  /* line 569, ../sass/wonderland.scss */
+  /* line 574, ../sass/wonderland.scss */
   #flower4 {
     height: 418px;
     right: 130px;
@@ -620,7 +626,7 @@ p {
     position: absolute;
   }
 
-  /* line 577, ../sass/wonderland.scss */
+  /* line 582, ../sass/wonderland.scss */
   #flower6 {
     height: 178px;
     right: 30px;
@@ -628,20 +634,20 @@ p {
     position: absolute;
   }
 
-  /* line 585, ../sass/wonderland.scss */
+  /* line 590, ../sass/wonderland.scss */
   #third-story {
     margin-top: -20px;
   }
 
   /* CLOCK CSS */
-  /* line 591, ../sass/wonderland.scss */
+  /* line 596, ../sass/wonderland.scss */
   .num {
     height: 100%;
     position: absolute;
     left: calc(50% - 0.5em);
   }
 
-  /* line 596, ../sass/wonderland.scss */
+  /* line 601, ../sass/wonderland.scss */
   .num div {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
@@ -652,127 +658,127 @@ p {
     vertical-align: middle;
   }
 
-  /* line 606, ../sass/wonderland.scss */
+  /* line 611, ../sass/wonderland.scss */
   .num1 {
     transform: rotate(30deg);
   }
 
-  /* line 610, ../sass/wonderland.scss */
+  /* line 615, ../sass/wonderland.scss */
   .num1 div {
     transform: rotate(-30deg);
   }
 
-  /* line 614, ../sass/wonderland.scss */
+  /* line 619, ../sass/wonderland.scss */
   .num2 {
     transform: rotate(60deg);
   }
 
-  /* line 618, ../sass/wonderland.scss */
+  /* line 623, ../sass/wonderland.scss */
   .num2 div {
     transform: rotate(-60deg);
   }
 
-  /* line 622, ../sass/wonderland.scss */
+  /* line 627, ../sass/wonderland.scss */
   .num3 {
     transform: rotate(90deg);
   }
 
-  /* line 626, ../sass/wonderland.scss */
+  /* line 631, ../sass/wonderland.scss */
   .num3 div {
     transform: rotate(-90deg);
   }
 
-  /* line 630, ../sass/wonderland.scss */
+  /* line 635, ../sass/wonderland.scss */
   .num4 {
     transform: rotate(120deg);
   }
 
-  /* line 634, ../sass/wonderland.scss */
+  /* line 639, ../sass/wonderland.scss */
   .num4 div {
     transform: rotate(-120deg);
   }
 
-  /* line 638, ../sass/wonderland.scss */
+  /* line 643, ../sass/wonderland.scss */
   .num5 {
     transform: rotate(150deg);
   }
 
-  /* line 642, ../sass/wonderland.scss */
+  /* line 647, ../sass/wonderland.scss */
   .num5 div {
     transform: rotate(-150deg);
   }
 
-  /* line 646, ../sass/wonderland.scss */
+  /* line 651, ../sass/wonderland.scss */
   .num6 {
     transform: rotate(180deg);
   }
 
-  /* line 650, ../sass/wonderland.scss */
+  /* line 655, ../sass/wonderland.scss */
   .num6 div {
     transform: rotate(-180deg);
   }
 
-  /* line 654, ../sass/wonderland.scss */
+  /* line 659, ../sass/wonderland.scss */
   .num7 {
     transform: rotate(210deg);
   }
 
-  /* line 658, ../sass/wonderland.scss */
+  /* line 663, ../sass/wonderland.scss */
   .num7 div {
     transform: rotate(-210deg);
   }
 
-  /* line 662, ../sass/wonderland.scss */
+  /* line 667, ../sass/wonderland.scss */
   .num8 {
     transform: rotate(240deg);
   }
 
-  /* line 666, ../sass/wonderland.scss */
+  /* line 671, ../sass/wonderland.scss */
   .num8 div {
     transform: rotate(-240deg);
   }
 
-  /* line 670, ../sass/wonderland.scss */
+  /* line 675, ../sass/wonderland.scss */
   .num9 {
     transform: rotate(270deg);
   }
 
-  /* line 674, ../sass/wonderland.scss */
+  /* line 679, ../sass/wonderland.scss */
   .num9 div {
     transform: rotate(-270deg);
   }
 
-  /* line 678, ../sass/wonderland.scss */
+  /* line 683, ../sass/wonderland.scss */
   .num10 {
     transform: rotate(300deg);
   }
 
-  /* line 682, ../sass/wonderland.scss */
+  /* line 687, ../sass/wonderland.scss */
   .num10 div {
     transform: rotate(-300deg);
   }
 
-  /* line 686, ../sass/wonderland.scss */
+  /* line 691, ../sass/wonderland.scss */
   .num11 {
     transform: rotate(330deg);
   }
 
-  /* line 690, ../sass/wonderland.scss */
+  /* line 695, ../sass/wonderland.scss */
   .num11 div {
     transform: rotate(-330deg);
   }
 
-  /* line 694, ../sass/wonderland.scss */
+  /* line 699, ../sass/wonderland.scss */
   .num12 {
     transform: rotate(0deg);
   }
 
-  /* line 698, ../sass/wonderland.scss */
+  /* line 703, ../sass/wonderland.scss */
   .num12 div {
     transform: rotate(0deg);
   }
 
-  /* line 702, ../sass/wonderland.scss */
+  /* line 707, ../sass/wonderland.scss */
   #sec-hand {
     background: red;
     width: 1px;
@@ -785,7 +791,7 @@ p {
     transform-origin: 50% 100%;
   }
 
-  /* line 716, ../sass/wonderland.scss */
+  /* line 721, ../sass/wonderland.scss */
   #min-hand {
     background: yellow;
     width: 3px;
@@ -798,7 +804,7 @@ p {
     transform-origin: 50% 100%;
   }
 
-  /* line 729, ../sass/wonderland.scss */
+  /* line 734, ../sass/wonderland.scss */
   #hr-hand {
     background: blue;
     width: 5px;
@@ -811,7 +817,7 @@ p {
     transform-origin: 50% 100%;
   }
 
-  /* line 742, ../sass/wonderland.scss */
+  /* line 747, ../sass/wonderland.scss */
   #watch {
     height: 305px;
     width: 235px;
@@ -824,7 +830,7 @@ p {
     margin-left: -10px;
   }
 
-  /* line 754, ../sass/wonderland.scss */
+  /* line 759, ../sass/wonderland.scss */
   #clock {
     display: block;
     width: 195px;
@@ -845,7 +851,7 @@ p {
   }
 
   /* END CLOCK CSS */
-  /* line 775, ../sass/wonderland.scss */
+  /* line 780, ../sass/wonderland.scss */
   #time-quote {
     display: block;
     position: relative;
@@ -857,55 +863,55 @@ p {
     text-align: center;
   }
 
-  /* line 789, ../sass/wonderland.scss */
+  /* line 794, ../sass/wonderland.scss */
   #rosa {
     left: 15%;
     cursor: url("/images/cetka/brush.png"), auto;
   }
 
-  /* line 794, ../sass/wonderland.scss */
+  /* line 799, ../sass/wonderland.scss */
   #orange {
     position: absolute;
     left: 130px;
     top: 200px;
   }
 
-  /* line 800, ../sass/wonderland.scss */
+  /* line 805, ../sass/wonderland.scss */
   #blue {
     position: absolute;
     left: 210px;
     top: 130px;
   }
 
-  /* line 805, ../sass/wonderland.scss */
+  /* line 810, ../sass/wonderland.scss */
   #pink {
     position: absolute;
     left: 220px;
     top: 190px;
   }
 
-  /* line 810, ../sass/wonderland.scss */
+  /* line 815, ../sass/wonderland.scss */
   #yellow {
     position: absolute;
     left: 280px;
     top: 240px;
   }
 
-  /* line 815, ../sass/wonderland.scss */
+  /* line 820, ../sass/wonderland.scss */
   #red {
     position: absolute;
     left: 190px;
     top: 270px;
   }
 
-  /* line 821, ../sass/wonderland.scss */
+  /* line 826, ../sass/wonderland.scss */
   .colors {
     width: 30px;
     height: 30px;
     cursor: url("/images/cetka/brush.png"), auto;
   }
 
-  /* line 829, ../sass/wonderland.scss */
+  /* line 834, ../sass/wonderland.scss */
   #rosaOrange, #rosaBlue, #rosaRed, #rosaYellow, #rosaPink {
     display: block;
     position: absolute;
@@ -914,7 +920,7 @@ p {
     cursor: url("/images/cetka/brush.png"), auto;
   }
 
-  /* line 838, ../sass/wonderland.scss */
+  /* line 843, ../sass/wonderland.scss */
   #rose-quote {
     display: block;
     position: relative;
@@ -927,7 +933,7 @@ p {
   }
 }
 @media only screen and (min-width: 1600px) {
-  /* line 852, ../sass/wonderland.scss */
+  /* line 857, ../sass/wonderland.scss */
   .container {
     max-width: 1140px;
   }
