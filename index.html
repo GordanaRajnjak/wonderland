@@ -65,7 +65,7 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="(WIP...)" aria-label="Search">
+      <input class="form-control mr-sm-2" type="text"  aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
@@ -157,10 +157,10 @@
 
   <audio id="sound-1" data-sound="1" src="sounds/faCut.wav" ></audio>
   <audio id="sound-2" data-sound="2" src="sounds/doCut.wav" autostart="false"></audio>
-  <audio data-sound="3" src="sounds/miCut.wav" autostart="false"></audio>
-  <audio data-sound="4" src="sounds/do2Cut.wav" autostart="false"></audio>
-  <audio data-sound="5" src="sounds/solCut.wav" autostart="false"></audio>
-  <audio data-sound="6" src="sounds/reCut.wav" autostart="false"></audio>
+  <audio data-sound="3" src="sounds/miCut.wav" ></audio>
+  <audio data-sound="4" src="sounds/do2Cut.wav"></audio>
+  <audio data-sound="5" src="sounds/solCut.wav"></audio>
+  <audio data-sound="6" src="sounds/reCut.wav"></audio>
 
      </div>
  
@@ -294,14 +294,15 @@ Photo credit: <a href="https://www.flickr.com/photos/randar/10830494195/">Tom Si
 
 
 $(document).on('click', '.flower', function() {
-    $('.flower').css({ "pointer-events":"none"}); 
+   $('.flower').css({ "pointer-events":"none"});  
   //  var key = $(this).data('sound');
    // $('audio[data-sound="'+key+'"]')[0].play();
 var key = $(this).data('sound');
+  
     $('audio[data-sound="'+key+'"]')[0].play();
 
-    $(this).animate({height: '+=80px'}, 200);
 
+    $(this).animate({height: '+=80px'}, 200);
     $(this).animate({height: '-=80px'}, 200, function() {
         $('.flower').css({ "pointer-events":"auto"});
     });
